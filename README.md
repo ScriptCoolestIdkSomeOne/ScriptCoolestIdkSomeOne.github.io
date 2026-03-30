@@ -1,2 +1,2 @@
-# KonataDancer.github.io
+# ScriptCoolestIdkSomeOne.github.io
 site for KonataDancer, im broke and can't afford a real website
