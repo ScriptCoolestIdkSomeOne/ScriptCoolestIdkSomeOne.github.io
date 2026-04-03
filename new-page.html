@@ -1,0 +1,166 @@
+<html>
+<head>
+    <title>Konata-Dancer downloadz</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #0055A4, #003366);
+            color: #FFFF00;
+            font-family: 'Comic Sans MS', 'Tahoma', 'Arial', sans-serif;
+        }
+        
+        .xp-box {
+            background: #ECE9D8;
+            border: 3px ridge #FFD700;
+            padding: 15px;
+            margin: 20px auto;
+            width: 70%;
+            color: #000000;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+        }
+        
+        .xp-button {
+            background: #EFEFEF;
+            border: 2px solid #FFFFFF;
+            border-right-color: #808080;
+            border-bottom-color: #808080;
+            padding: 5px 15px;
+            font-family: 'Tahoma', sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 5px;
+        }
+        
+        .xp-button:active {
+            border: 2px solid #808080;
+            border-right-color: #FFFFFF;
+            border-bottom-color: #FFFFFF;
+        }
+        
+        a {
+            color: #FF00FF;
+            text-decoration: underline;
+        }
+        
+        a:hover {
+            color: #00FFFF;
+            background: #800080;
+        }
+        
+        hr {
+            border: 1px dashed #FFD700;
+        }
+        
+        marquee {
+            background: #000000;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+
+<center>
+    <h1>Konata-Dancer</h1>
+    <h2>DOWNLOADS & STUFF</h2>
+    
+    <marquee>download all of these, i dare you</marquee>
+
+<div class="index-counter no-select" data-count="3191036609" data-size="58299" 
+     style="background: #000000; border: 3px ridge #FFD700; padding: 10px; margin: 20px auto; width: 80%; font-family: 'Courier New', monospace; cursor: pointer;">
+    <div class="counter-box text-center" style="color: #00FF00; text-shadow: 0 0 2px #00FF00;">
+        DOWNLOADED <b style="color: #FFFF00; font-size: 1.2em;">3,191,036,609</b> FILES<br>
+        DATA LEAKED <b style="color: #FF69B4;">58,299 TB</b> 
+    </div>
+    <div style="font-size: 9px; color: #666; text-align: center; margin-top: 5px;">
+        counter don't lie
+    </div>
+</div>
+
+<script>
+    //cool shut
+    (function() {
+        let counterElement = document.querySelector('.index-counter');
+        if (!counterElement) return;
+        
+        let countSpan = counterElement.querySelector('b:first-of-type');
+        let sizeSpan = counterElement.querySelector('b:last-of-type');
+        
+        if (!countSpan || !sizeSpan) return;
+        
+        let currentCount = 3191036609;
+        let currentTB = 58299;
+        
+        setInterval(() => {
+            let addCount = Math.floor(Math.random() * 850) + 47;
+            currentCount += addCount;
+            
+            let addTB = Math.floor(addCount / 70);
+            if (addTB > 0) {
+                currentTB += addTB;
+            }
+            
+            countSpan.textContent = currentCount.toLocaleString('ru-RU');
+            sizeSpan.textContent = currentTB.toLocaleString('ru-RU');
+            
+            counterElement.style.backgroundColor = '#111111';
+            setTimeout(() => {
+                counterElement.style.backgroundColor = '#000000';
+            }, 150);
+        }, 3000);
+        
+        counterElement.addEventListener('click', function() {
+            alert('shit\nyou found me\nfuck you');
+        });
+    })();
+</script>
+	
+    <div class="xp-box">
+        <strong>! DOWNLOAD LINKS !</strong><br><br>
+        
+        <p><a href="#" onclick="alert('https://github.com/ScriptCoolestIdkSomeOne/Konata-Dancer'); return false;">
+            <strong>Konata-Dancer_v2.0</strong>
+        </a> - <em>BEST DESKTOP COMPANION</em></p>
+        
+        <p><a href="#" onclick="alert('iddk'); return false;">
+            <strong>Mottekke_NightCore.mp3</strong>
+        </a> - <em>fuckiest shit ever</em></p>
+        
+        <p><a href="#" onclick="alert('NOT DONE'); return false;">
+            <strong>OTHER PRODUCKS</strong>
+        </a> - <em>SHIT</em></p>
+        
+        <p><a href="#" onclick="alert('NOT DONE'); return false;">
+            <strong>SOFTWARES</strong>
+        </a> - <em>COOLEST CUSTOM SOFTWARES</em></p>
+        
+        <hr>
+        
+        <p><a href="index.html"><strong>BACK TO MAIN PAGE</strong></a></p>
+        <p><strong>Mirrors:</strong> ZERO SHIT)</p>
+    </div>
+    
+    <div class="xp-box">
+        <strong>AFFILIATES / WEBRING</strong><br><br>
+       <a href="#">NONE</a><br>
+       <a href="#">NONE</a><br>
+       <a href="#">NONE</a><br>
+       <a href="#">NONE</a><br>
+        <br>
+        <small>FUCK THESE</small>
+    </div>
+    
+    <br>
+    
+    <button class="xp-button" onclick="window.location.href='index.html'">
+        Return to Konata-Dancer
+    </button>
+    
+    <br><br>
+    
+    <font size="1" color="#FFCC00">
+        SHSJH<br>
+        <a href="#" style="color: #FFCC00;" onclick="window.scrollTo(0,0); return false;">Back to top</a>
+    </font>
+</center>
+
+</body>
+</html>
