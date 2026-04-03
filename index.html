@@ -1,68 +1,285 @@
-<!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KonataDancer</title>
+    <title>Konata-Dancer ★ Welcome!</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-            text-align: center;
+            background: linear-gradient(to bottom, #0055A4, #003366);
+            color: #FFFF00;
+            font-family: 'Comic Sans MS', 'Tahoma', 'Arial', sans-serif;
         }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        
+        /* Старый добрый блок в стиле XP */
+        .xp-box {
+            background: #ECE9D8;
+            border: 3px ridge #FFD700;
+            padding: 15px;
+            margin: 20px auto;
+            width: 80%;
+            color: #000000;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
         }
-        h1 {
-            color: #333;
+        
+        /* Кнопка в стиле WinXP */
+        .xp-button {
+            background: #EFEFEF;
+            border: 2px solid #FFFFFF;
+            border-right-color: #808080;
+            border-bottom-color: #808080;
+            padding: 5px 15px;
+            font-family: 'Tahoma', sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 5px;
         }
-        p {
-            color: #666;
-            line-height: 1.6;
+        
+        .xp-button:active {
+            border: 2px solid #808080;
+            border-right-color: #FFFFFF;
+            border-bottom-color: #FFFFFF;
         }
-        .highlight {
-            background: #e8f4f8;
+        
+        /* Стиль для download-блока */
+        .download-box {
+            background: #ECE9D8;
+            border: 2px solid;
+            border-color: #FFFFFF #808080 #808080 #FFFFFF;
             padding: 10px;
-            border-radius: 5px;
-            margin: 20px 0;
+            margin: 20px auto;
+            width: 60%;
+            text-align: left;
         }
-        a {
-            color: #0066cc;
+        
+        .download-item {
+            background: #D4D0C8;
+            margin: 8px 0;
+            padding: 8px;
+            border: 1px solid #808080;
+            font-family: 'Tahoma', sans-serif;
+        }
+        
+        .download-item a {
+            color: #0000FF;
             text-decoration: none;
+            font-weight: bold;
         }
-        a:hover {
+        
+        .download-item a:hover {
+            color: #FF0000;
             text-decoration: underline;
+        }
+        
+        marquee {
+            background: #000000;
+            padding: 5px;
+            font-weight: bold;
+        }
+        
+        hr {
+            border: 1px dashed #FFD700;
+        }
+        
+        a {
+            color: #FF00FF;
+            text-decoration: underline;
+        }
+        
+        a:hover {
+            color: #00FFFF;
+            background: #800080;
+        }
+        
+        ul li {
+            margin: 10px 0;
+            list-style-type: square;
+        }
+        
+        /* Стиль для счётчика */
+        .counter {
+            font-family: 'Courier New', monospace;
+            font-size: 20px;
+            background: #000000;
+            color: #00FF00;
+            padding: 5px;
+            display: inline-block;
+            letter-spacing: 2px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>test site</h1>
-        <p>this is <strong>Konata Dancer</strong> test site</p>
+
+    <center>
+        <h1>
+            ✦ Konata-Dancer ✦
+        </h1>
         
-        <div class="highlight">
-            <p>testing</p>
+        <img src="CoolThings.gif" alt="Cool things GIF" 
+             style="border: 5px ridge #FFD700;">
+        
+        <br><br>
+        
+        <embed src="Mottekke_NightCore.mp3" 
+               autostart="true" 
+               loop="true" 
+               hidden="false" 
+               width="300" 
+               height="45">
+        
+        <br>
+        
+        <marquee>
+             Mottekke_NightCore playing
+        </marquee>
+        
+        <div class="xp-box">
+            <strong>✧ Konata-Dancer ✧</strong><br>
+            <em>best desktop companion!11!</em><br><br>
+            <p>Konata-Dancer can:</p>
+            <ul>
+                <li>Change size</li>
+                <li>Dance fasteer</li>
+                <li>Change saturation</li>
+            </ul>
         </div>
         
-        <p>test</p>
-        <ol style="text-align: left; display: inline-block;">
-            <li>test</li>
-            <li>test</li>
-            <li>test</li>
-        </ol>
+        <div class="download-box">
+            <div style="background: #0058E2; color: white; padding: 5px; margin: -10px -10px 10px -10px; font-weight: bold;">
+                ! DOWNLOADS !
+            </div>
+            
+            <div class="download-item">
+                <a href="#" onclick="alert('https://github.com/ScriptCoolestIdkSomeOne/Konata-Dancer'); return false;">
+                    Konata-Dancer 2.0
+                </a> 
+                <span style="float: right; font-size: 10px;">VIRUS FREE(almost)</span>
+                <br>
+                <small style="color: #666;">BEST DESKTOP COMPANION!11!</small>
+            </div>
+            
+            <div class="download-item">
+                <a href="#" onclick="alert('IDK'); return false;">
+                    Mottekke_NightCore_Full.mp3
+                </a>
+                <span style="float: right; font-size: 10px;">VIRUS FREE</span>
+                <br>
+                <small style="color: #666;">NIGHTCORE MADE BY MEEE</small>
+            </div>
+            
+            <div class="download-item">
+                <a href="#" onclick="alert('NOT DONE'); return false;">
+                    OTHER PRODUCTS
+                </a>
+                <span style="float: right; font-size: 10px;">VIRUS FREE(NO)</span>
+                <br>
+                <small style="color: #666;">COOLEST SHT</small>
+            </div>
+            
+            <div class="download-item">
+                <a href="#" onclick="alert('NOT DOEN YETS'); return false;">
+                    SOFTWARES
+                </a>
+                <span style="float: right; font-size: 10px;">VIRUS FREE(IDK)</span>
+                <br>
+                <small style="color: #666;">CUSTOM SOFTWARES</small>
+            </div>
+            
+            <hr style="border: 1px dotted #808080;">
+            <center>
+                <font size="1" color="#666">
+                    DOWNLOAD BY YOUR OWN RISK
+                </font>
+            </center>
+        </div>
         
-        <p>yee <a href="https://docs.github.com/ru/pages" target="_blank">made with</a></p>
+        <div id="eye" style="font-size: 50px; text-align: center;">A</div>
+        <script>
+            document.onmousemove = function(e) {
+                var eye = document.getElementById('eye');
+                var x = (e.clientX / window.innerWidth) * 20;
+                var y = (e.clientY / window.innerHeight) * 20;
+                eye.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+            }
+        </script>
         
-        <footer style="margin-top: 40px; font-size: 12px; color: #999;">
-            <p>test</p>
-        </footer>
-    </div>
+        <div>
+            <div class="counter">
+                <span id="visitorCount">SHIITYTY</span>
+            </div>
+            <br>
+            <small>visitors since idk</small>
+        </div>
+        
+        <script>
+            if(localStorage.getItem('visitorCount')) {
+                var count = parseInt(localStorage.getItem('visitorCount')) + 1;
+                localStorage.setItem('visitorCount', count);
+            } else {
+                var count = 0;
+                localStorage.setItem('visitorCount', count);
+            }
+            document.getElementById('visitorCount').innerHTML = String(count).padStart(6, '0');
+        </script>
+        
+        <br>
+        
+        <div>
+            <button class="xp-button" onclick="alert('Email: konata@anime-fan.net (not really)')">
+                Email me!
+            </button>
+            <button class="xp-button" onclick="alert('Guestbook is under construction! Check back in 2007!')">
+                Guestbook!
+            </button>
+        </div>
+        
+        <div onmouseover="this.style.background='#316AC5'; document.getElementById('tooltip').style.display='block';" 
+             onmouseout="this.style.background='#0058E2'; document.getElementById('tooltip').style.display='none';"
+             style="background: #0058E2; color: white; padding: 5px 15px; display: inline-block; border-radius: 3px; position: relative;">
+            COOL
+            <div id="tooltip" 
+                 style="position: absolute; background: #FFFFE1; border: 1px solid black; color: black; padding: 2px 5px; font-size: 10px; display: none; bottom: 30px; left: 10px; white-space: nowrap;">
+                COOLEST THING EVER!1!
+            </div>
+        </div>
+        
+        <div style="position: fixed; bottom: 0; left: 0; right: 0; background: #245EDC; height: 30px; border-top: 1px solid #6C8EE8; padding: 3px;">
+            <div style="background: #1E4DB5; display: inline-block; padding: 3px 10px; color: white; border-radius: 3px;">
+                Konata-Dancer
+            </div>
+            <span style="color: white; margin-left: 20px;">
+                 COOLEST SITE | BEST SITE EVER!11
+            </span>
+            <span style="float: right; color: white; margin-right: 10px;">
+                <span id="taskbarClock"></span>
+            </span>
+        </div>
+        
+        <script>
+            function updateTaskbarClock() {
+                var now = new Date();
+                document.getElementById('taskbarClock').innerHTML = now.toLocaleTimeString();
+            }
+            setInterval(updateTaskbarClock, 1000);
+        </script>
+        
+        <hr>
+
+        <small>
+            <a href="new-page.html">WODNLADZZZ</a>
+        </small>
+        
+        <br><br>
+        
+        <img src="" alt="firefox rulzzz">
+        <img src="" alt="fuck microsoft edge">
+        
+        <br><br>
+        
+        <font size="1" color="#FFCC00"><br>
+            fucking fucker<br>
+            firefox rulz but website sucks<br>
+            <a href="#" style="color: #FFCC00;" onclick="window.scrollTo(0,0); return false;">Back to top</a>
+        </font>
+        
+    </center>
+    
 </body>
 </html>
